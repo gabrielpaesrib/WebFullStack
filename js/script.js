@@ -2,6 +2,6 @@
 $(document).ready(function(){
     // DEBUGAR //console.log('Funcionou!')
     $('#txtNome').blur(function(){
-     alert($(this).val());
+    	var nome = $(this).val();
     });
 });
